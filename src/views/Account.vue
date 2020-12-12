@@ -6,11 +6,11 @@
 
     <div class="row mt-5">
 
-        <div class="col">
+        <div class="col" id="left-col">
             <Login />
         </div>
 
-        <div class="col">
+        <div class="col" id="right-col">
             <Register />
         </div>
 
@@ -35,4 +35,46 @@ export default {
 .container {
     height: 800px;
 }
+
+/* MOBILE RESPONSIVE */
+@media only screen and (min-width: 360px) {
+    .container {
+    height: 800px;
+}
+#left-col {
+    min-width: 100%;
+    margin-bottom: 50px;
+}
+
+#right-col {
+    margin-bottom: 200px;
+}
+
+}
+/* LAPTOP RESPONSIVE */
+@media only screen and (min-width: 767px) {
+    .container {
+    height: 800px;
+}
+#left-col {
+    min-width: 0%;
+}
+#right-col {
+    margin-bottom: 0px;
+}
+}
+
+/* DESKTOP RESPONSIVE */
+@media only screen and (min-width: 1370px) {
+    .container {
+    height: 800px;
+}
+#left-col {
+    min-width: 0%;
+}
+#right-col {
+    margin-bottom: 0px;
+}
+}
+
 </style>

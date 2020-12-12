@@ -23,4 +23,35 @@ export default {
     padding: 100px;
 
 }
+
+/* MOBILE RESPONSIVE */
+@media only screen and (min-width: 360px) {
+    .display-1 {
+        font-size: 2em !important;
+    }
+    .display-3 {
+ font-size:1em !important;
+    }
+}
+/* LAPTOP RESPONSIVE */
+@media only screen and (min-width: 767px) {
+        .display-1 {
+        font-size: 5em !important;
+    }
+    .display-3 {
+ font-size: 2.5em !important;
+    }
+}
+
+/* DESKTOP RESPONSIVE */
+@media only screen and (min-width: 1370px) {
+        .display-1 {
+        font-size: 10em !important;
+    }
+    .display-3 {
+ font-size: 5em !important;
+    }
+}
+
+
 </style>

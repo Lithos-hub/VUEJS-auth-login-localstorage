@@ -3,7 +3,7 @@
     <Navbar />
 
     <router-view />
-    <Footer />
+    <Footer id="footer" />
 </div>
 </template>
 
@@ -25,6 +25,7 @@ body {
 }
 
 body {
+    width: 100%;
     background-image: url(assets/imgs/background.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -82,5 +83,11 @@ body {
     to {
         opacity: 1;
     }
+}
+
+#footer {
+    position: fixed;
+    bottom: 0px;
+
 }
 </style>
