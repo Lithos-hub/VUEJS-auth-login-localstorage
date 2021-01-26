@@ -1,7 +1,9 @@
 <template>
 <div class="footer fixed-bottom">
     <div class="container">
-
+        <a href="https://github.com/Lithos-hub/VUEJS-auth-login-localstorage">
+    <img src="../assets/imgs/github.png" width="20" class="img-github">
+        </a>
         <div class="row pt-3">
 
             <div class="col-12 text-center">
@@ -12,9 +14,13 @@
 
                 <p class="lead mt-2"> Using <span class="text-warning">LocalStorage</span></p>
 
+                
+
             </div>
+            
 
         </div>
+
     </div>
 </div>
 </template>
@@ -26,6 +32,13 @@ export default {
 </script>
 
 <style>
+
+.img-github {
+    position: absolute;
+    right: 2%;
+    top: 75%;
+    filter: invert(1);
+}
 
 /*  MOBILE RESPONSIVE  */
 @media only screen and (min-width: 360px) {

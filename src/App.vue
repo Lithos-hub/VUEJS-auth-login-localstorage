@@ -15,7 +15,12 @@ export default {
     components: {
         Navbar,
         Footer
-    }
+    },
+    data() {
+        return {
+            myBooks: []
+        }
+    },
 }
 </script>
 
